@@ -1,18 +1,44 @@
 
 .container {
-    max-width: 1152px;
+    max-width: 1178px;
+    /* padding-left: 0;
+    padding-right: 0; */
 }
 /* Header start */
 header nav {
     /* height: 87px; */
     width: auto;
 }
+nav.navbar {
+    padding-top: 0;
+    padding-bottom: 0;
+}
 nav.navbar .container{
     align-items: center;
     justify-content: space-between;
 }
+nav.navbar .container .navbar-nav {
+    gap: 28px;
+}
+
+nav.navbar .container .navbar-nav .nav-icon .icon-menu {
+    gap: 14px;
+} 
+nav.navbar .container .navbar-nav .nav-item .nav-link {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+/* nav.navbar .container:last-of-type .navbar-nav {
+    gap: 6px;
+} */
+nav.navbar .container .nav-icon .icon-menu {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+}
 nav .navbar-nav .nav-item button{
     padding-left: 0;
+    padding-right: 6px;
 }
 nav .navbar-nav .nav-item .nav-link.bucket {
     padding-right: 0;
@@ -24,22 +50,28 @@ nav .navbar-nav .nav-item a {
     color: black;
 } 
 nav .navbar-brand {
-    height: 83px;
-    width: 295px;
+    width: 395px;
+    height: 118px;
     padding: 0;
     margin: 0;
+    /* display: flex;
+    justify-content: flex-end; */
 }
 nav .navbar-brand img {
-    height: auto;
-    width: 100%;
+    /* width: 395px;
+    height: 118px; */
 }
 nav .navbar-nav .nav-item .bucket {
     display: flex;
     align-items: center;
     gap: 8px;
 }
-nav .container .collapse {
-    /* max-width: 428px; */
+
+nav .container .collapse.justify-content-start  {
+    width: 375px;
+ }
+nav .container .collapse.justify-content-end {
+   /* width: 384px; */
 }
 
 /* nav mobile */
@@ -52,7 +84,7 @@ nav.navbar .container-fluid {
 
 /* Home1 Main-banenr start */
 section.home1.main-banner {
-    margin-top: 50px;
+    margin-top: 42px;
 }
 section.home1.main-banner .container {
     display: flex;
@@ -150,7 +182,7 @@ section.home2.categories .box-heading h3 {
     margin-bottom: 0;
 }
 section.home2.categories .item .text-caption {
-    margin-top: 26px;
+    margin-top: 21px;
 }
 section.home2.categories .item .text-caption p {
     font-family: 'Montserrat', sans-serif;
@@ -201,7 +233,7 @@ section.home3.about .img-banner-about .text-caption h3 {
     width: 64%;
     margin-bottom: 0;
     text-decoration: none;
-    margin-top: 17px;
+    margin-top: 12px;
 }
 /* section.home3.about .row .col-md-8 {
     padding-right: 10px;
@@ -230,13 +262,13 @@ section.home3.about .small-banner-about .text-caption h3 {
     font-weight: 700;
     color: white;
     margin-bottom: 0;
-    margin-top: 17px;
+    margin-top: 12px;
 }
 /* Home3 about end */
 
 /* Home4 Blog start */
 section.home4.blog {
-    margin-top: 69px;
+    margin-top: 64px;
 }
 section.home4.blog .box-heading h3 {
     font-family: 'Montserrat', sans-serif;
@@ -307,7 +339,7 @@ section.home5.contact .text-caption h3 {
     font-weight: 700;
     color: white;
     margin-bottom: 0;
-    margin-top: 13px;
+    margin-top: 12px;
 }
 section.home5.contact .small-banner-contact {
     position: relative;
@@ -326,7 +358,7 @@ section.home5.contact .img-banner .text-caption {
     bottom: 28px;
 }
 section.home5.contact .btn-back-top {
-    margin-top: 85px;
+    margin-top: 75px;
     display: flex;
     justify-content: center;
 }
@@ -344,7 +376,7 @@ section.home5.contact .btn-back-top button {
 
 /* footer start */
 footer.footer {
-    margin-top: 74px;
+    margin-top: 61px;
 }
 footer.footer .top-nav,
 footer.footer .bot-nav {
@@ -436,7 +468,7 @@ footer section.contact-us .title p {
     font-weight: 800;
     color: black;
 }
-footer section.contact-u    s .subtitle p {
+footer section.contact-us .subtitle p {
     font-family: 'Montserrat', sans-serif;
     font-size: 12px;
     font-weight: 700;
