@@ -84,7 +84,7 @@ nav.navbar .container-fluid {
 
 /* Home1 Main-banenr start */
 section.home1.main-banner {
-    margin-top: 42px;
+    margin-top: 33px;
 }
 section.home1.main-banner .container {
     display: flex;
@@ -118,11 +118,11 @@ section.home1.main-banner .img-banner .text-caption p {
     font-size: 14px;
     font-weight: 500;
     color: white;
-    margin-bottom: 15px;
+    margin-bottom: 6px;
 }
 section.home1.main-banner .img-banner .text-caption h3 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 30px;
+    font-size: 29px;
     font-weight: 700;
     color: white;
     margin-bottom: 0;
@@ -137,7 +137,7 @@ section.home1.main-banner .col-md-4 .small-banner {
 section.home1.main-banner .col-md-4 .small-banner img {
     /* width: 377px;
     height: 375px; */
-    width: 100%;
+    /* width: 100%; */
 }
 section.home1.main-banner .col-md-4 .small-banner .text-caption {
     position: absolute;
@@ -149,11 +149,11 @@ section.home1.main-banner .small-banner .text-caption p {
     font-size: 14px;
     font-weight: 500;
     color: white;
-    margin-bottom: 15px;
+    margin-bottom: 11px;
 }
 section.home1.main-banner .small-banner .text-caption h3 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 30px;
+    font-size: 29px;
     font-weight: 700;
     color: white;
     margin-bottom: 0;
@@ -172,7 +172,7 @@ section.home2.categories .box-heading p {
     font-size: 14px;
     font-weight: 600;
     color: #969696;
-    margin-bottom: 17px;
+    margin-bottom: 12px;
 }
 section.home2.categories .box-heading h3 {
     font-family: 'Montserrat', sans-serif;
@@ -187,13 +187,14 @@ section.home2.categories .item .text-caption {
 section.home2.categories .item .text-caption p {
     font-family: 'Montserrat', sans-serif;
     font-size: 12px;
-    font-weight: 600;
-    color: #969696;
+    font-weight: 700;
+    color: #737373;
     margin-bottom: 17px;
+    margin-top: 2px;
 }
 section.home2.categories .item .text-caption a {
     font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
+    font-size: 19px;
     font-weight: 700;
     color: black;
     margin-bottom: 0;
@@ -204,7 +205,7 @@ section.home2.categories .item .text-caption a {
 
 /* Home3 about start */
 section.home3.about {
-    margin-top: 73px;
+    margin-top: 57px;
 }
 section.home3.about .img-banner-about {
     position: relative;
@@ -233,7 +234,7 @@ section.home3.about .img-banner-about .text-caption h3 {
     width: 64%;
     margin-bottom: 0;
     text-decoration: none;
-    margin-top: 12px;
+    margin-top: 7px;
 }
 /* section.home3.about .row .col-md-8 {
     padding-right: 10px;
@@ -259,10 +260,11 @@ section.home3.about .small-banner-about .text-caption a {
 section.home3.about .small-banner-about .text-caption h3 {
     font-family: 'Montserrat', sans-serif;
     font-size: 30px;
+    /* line-height: 34px; */
     font-weight: 700;
     color: white;
     margin-bottom: 0;
-    margin-top: 12px;
+    margin-top: 7px;
 }
 /* Home3 about end */
 
@@ -275,22 +277,23 @@ section.home4.blog .box-heading h3 {
     font-size: 30px;
     font-weight: 700;
     color: black;
-    margin-bottom: 34px;
+    margin-bottom: 32px;
 }
 section.home4.blog .item .text-caption {
     margin-top: 26px;
-    margin-bottom: 62px;
+    margin-bottom: 58px;
 }
 section.home4.blog .item .text-caption p {
     font-family: 'Montserrat', sans-serif;
     font-size: 12px;
     font-weight: 600;
     color: #969696;
-    margin-bottom: 12px;
+    margin-bottom: 1px;
 }
 section.home4.blog .item .text-caption a {
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
+    line-height: 20px;
     font-weight: 700;
     color: black;
     margin-bottom: 0;
@@ -358,12 +361,12 @@ section.home5.contact .img-banner .text-caption {
     bottom: 28px;
 }
 section.home5.contact .btn-back-top {
-    margin-top: 75px;
+    margin-top: 73px;
     display: flex;
     justify-content: center;
 }
 section.home5.contact .btn-back-top img {
-    margin-bottom: 20px;
+    margin-bottom: 12px;
 }
 section.home5.contact .btn-back-top button {
     color: #152c8a;
@@ -599,6 +602,7 @@ footer section.copyright .text-caption p {
     footer.footer .list-item {
         flex-wrap: wrap;
         gap: 10px;
+        padding-left: 0;
     }
     footer.footer .top-nav, footer.footer .bot-nav {
         flex-wrap: wrap;
